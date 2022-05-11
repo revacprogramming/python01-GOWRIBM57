@@ -1,12 +1,16 @@
-# Functions
+score = input("Enter Score: ")
+s =  float(score)
 
-
-def computepay(h, r):
-    pass  # ...
-
-
-hrs = float(input("Enter hours? "))
-rte = float(input("Enter rate per hour? "))
-
-p = computepay(hrs, rte)
-print("Pay", p)
+if s >= 0.9:
+	x = 'A'
+elif s >=0.8:
+	x='B'
+elif s >=0.7:
+	x='C'
+elif s >= 0.6:
+	x='D'
+elif s < .6:
+	x ='F'
+else:
+	x ="Out of Range"
+print (x)
