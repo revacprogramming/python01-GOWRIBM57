@@ -13,4 +13,4 @@ elif s < .6:
 	x ='F'
 else:
 	x ="Out of Range"
-print (x)
+print (x)    
