@@ -1,9 +1,6 @@
-hours=35.0
-rate=2.75
-pay=hours*rate
+hours=input('Enter the hours:')
+rate=input('Enter the rate:')
+hrs=float(hours)
+rt=float(rate)
+pay=hrs*rt
 print(pay)
-
-
-
-
-
