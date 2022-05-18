@@ -1,9 +1,12 @@
-hrs = input("Enter Hours:")
-h = float(hrs)
-hrs=45
-rate=10.50
-pay=hrs*rate
+hours=input('Enter the hours:')
+rate=input('Enter the rate:')
+hrs=float(hours)
+rt=float(rate)
+if hrs > 40:
+    print('overtime')
+    pay=hrs*rt*1.5
+else:
+    print('regular')
+pay=(hrs)*(rt)
 print(pay)
-
-
-
+     
