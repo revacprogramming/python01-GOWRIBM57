@@ -1,6 +1,5 @@
 largest = None
-smallest = None
-while True: 
+ while True: 
    try:
        num = input('Enter the number')
        if num == 'done':
@@ -13,4 +12,4 @@ else smallest
     except:
            print('Invalid')
 print('Maximum number is',largest)
-print(Minimum number is',smallest)
+print('Minimum number is',smallest)
