@@ -1,23 +1,17 @@
-# Tuples
-
-filename = "dataset/mbox-short.txt"
-
-
-fname = input("Enter file name: ")
-fh = open(fname)
-count = dict()
-for line in fh:
+name = input("Enter file:")
+if len(name) < 1:
+    name = "mbox-short.txt"
+handle = open(name)
+final=dict()
+for line in handle:
     if line.startswith("From"):
-        words=line.split()
-        test=words[1]
-        for test in words:
-            if test in count:
-                count[test] = count[test] + 1
-            else:
-                count[test] = 1
-        
-#print(line.strip())
-for k,v in count.items():
-    print(k,'-',v)
-#print(count.keys())
-#print(count.values())
+        test=line
+        if not test.startswith('From:'):
+            tonote=test.split()
+            hrs = tonote[5]
+            spec=hrs.split(':')
+            spec1=spec[0]
+            final[spec1]=final.get(spec1,0)+1
+              
+for k,v in sorted(final.items()):
+    print(k,v)
