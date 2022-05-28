@@ -14,4 +14,5 @@ for line in handle:
             final[spec1]=final.get(spec1,0)+1
               
 for k,v in sorted(final.items()):
-    print(k,v)
+    print(k,v)    
+
