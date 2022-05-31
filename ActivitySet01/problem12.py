@@ -12,3 +12,5 @@ for line in fhand:
         number.append(num)
     
 print(sum(number))
+
+
