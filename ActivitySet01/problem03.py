@@ -1,6 +1,7 @@
-hours=input('Enter the hours:')
+#variables
+hrs=input('Enter the hours:')
+h=float(hrs)
 rate=input('Enter the rate:')
-hrs=float(hours)
 rt=float(rate)
-pay=hrs*rt
-print(pay)
+grosspay=h*rt
+print("Pay:", grosspay)
