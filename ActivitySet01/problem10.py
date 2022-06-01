@@ -10,4 +10,7 @@ for line in fh:
             lst.append(element)
 lst.sort()
 print(lst)
-            
+
+
+
+
