@@ -1,12 +1,14 @@
-hours=input('Enter the hours:')
+#conditional execution
+
+hrs=input('Enter the hours:')
+h=float(hrs)
 rate=input('Enter the rate:')
-hrs=float(hours)
 rt=float(rate)
-if hrs > 40:
-    print('overtime')
-    pay=hrs*rt*1.5
+if h>40:
+  print("Overtime")
+  grosspay=1.5*h*rt
 else:
-    print('regular')
-pay=(hrs)*(rt)
-print(pay)
-     
+  print("Regular")
+  grosspay=h*rt
+print(grosspay)  
+  

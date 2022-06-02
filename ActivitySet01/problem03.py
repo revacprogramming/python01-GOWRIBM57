@@ -1,4 +1,6 @@
-#variables
+#variables expressions and statements
+
+
 hrs=input('Enter the hours:')
 h=float(hrs)
 rate=input('Enter the rate:')
