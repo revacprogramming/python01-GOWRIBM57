@@ -3,7 +3,7 @@
 
 hrs=input('Enter the hours:')
 h=float(hrs)
-rate=input('Enter the hours:')
+rate=input('Enter the rate:')
 rt=float(rate)
 grosspay=h*rt
-print('pay:',grosspay)
+print("Pay:", grosspay)

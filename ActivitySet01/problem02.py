@@ -1,0 +1,3 @@
+#whyprogram
+
+print("Hello World")
