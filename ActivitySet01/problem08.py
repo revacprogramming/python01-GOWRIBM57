@@ -1,9 +1,7 @@
 # Strings
 
-text = "X-DSPAM-Confidence:    0.8475"
-length=len(text)
-pos=text.find(':')
-num=text[pos+1:]
-num.strip()
-fnum=float(num)
-print(fnum)
+ext = "X-DSPAM-Confidence:    0.8475";
+startPos = text.find(':')
+piece = text[startPos+1:]
+end = float(piece)
+print(end)
