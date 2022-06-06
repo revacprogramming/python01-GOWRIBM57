@@ -1,14 +1,18 @@
-#functions
+#conditional statement 2
 
 
-def computepay(hrs,rt):
-    hrs=input("Enter the hours:")
-hrs=float(hrs)
-rt=input("Enter the rate:")
-rt=float(rt)
-if hrs>40:
-    pay=((40*rt)+((hrs-40)*(1.5*rt)))
+score=input('Enter the marks:')
+s=float(score)
+if(s>=0.9):
+    print('A')
+elif(s>=0.8):
+    print('B')
+elif(s>=0.7):
+    print('C')
+elif(s>=0.6):
+    print('D')
+elif(s<0.6):
+    print(s>0.6)
 else:
-    pay=hrs*rt
-pay=computepay(hrs,rt)
-print('pay' ,pay)
+  print('Out of Range')
+score = input("Enter Score: ")
