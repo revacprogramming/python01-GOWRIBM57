@@ -1,5 +1,6 @@
 # Files
 
+
 fname = input("Enter file name: ")
 fh = open(fname)
 avg=0
