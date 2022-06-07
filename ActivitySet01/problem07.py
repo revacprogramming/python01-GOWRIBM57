@@ -3,7 +3,6 @@
 
 largest = None
 smallest = None
-
 while True:
 num = input("Enter a number: ")
 if num == "done":
@@ -17,7 +16,6 @@ elif inum > largest:
 largest = inum
 elif inum < smallest:
 smallest = inum
-
 except:
     print("Invalid input")
 print("Maximum is", largest)
