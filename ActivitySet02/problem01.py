@@ -1,12 +1,5 @@
 
-
-def add(a, b):
-    return  # ...
-
-
-def main():
-    a = input  # ...
-    b = input  # ...
-
-    c = add(a, b)
-    print  # ...
+a=input('Enter the number:')
+b=input('Enter the number:')
+c=a+b
+print('The sum of a and b is c')
